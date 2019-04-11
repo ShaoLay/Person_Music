@@ -18,5 +18,10 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include('index.urls'))
+    url(r'', include('index.urls')),
+    url(r'^ranking.html', include('ranking.urls')),
+    url(r'^play/', include('play.urls')),
+    url(r'^comment/', include('comment.urls')),
+    url(r'^search/', include('search.urls')),
+    url(r'^user/', include('user.urls')),
 ]
