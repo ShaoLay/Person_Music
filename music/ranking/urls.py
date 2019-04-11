@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^ranking.html/$', views.rankView, name='ranking.html'),
+    url(r'', views.rankView, name='ranking'),
 ]
